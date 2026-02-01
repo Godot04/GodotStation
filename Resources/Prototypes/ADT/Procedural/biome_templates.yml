@@ -484,7 +484,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockSnowCopper
+        - ADTWallRockSnowCopper
     - !type:BiomeEntityLayer
       allowedTiles:
         - FloorIce
@@ -499,7 +499,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockSnowZinc
+        - ADTWallRockSnowZinc
 # Snow tiles islands
     - !type:BiomeTileLayer
       tile: FloorSnow
@@ -1031,7 +1031,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockSandCopper
+        - ADTWallRockSandCopper
     - !type:BiomeEntityLayer
       allowedTiles:
         - FloorDesert
@@ -1046,7 +1046,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockSandZinc
+        - ADTWallRockSandZinc
 # Oops... Quicksand is over... Falling will be fast.
     - !type:BiomeEntityLayer
       allowedTiles:
