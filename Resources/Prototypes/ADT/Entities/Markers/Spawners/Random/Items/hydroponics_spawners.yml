@@ -1,6 +1,6 @@
 #region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClutterHydroponics
   name: random clutter
   suffix: "Loot (Frontier), Hydroponics"
@@ -24,7 +24,7 @@
 
 #region Tools
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolsHydroponics
   name: random tool
   suffix: "Loot (Frontier), Hydroponics"
@@ -48,7 +48,7 @@
 
 #region Chems / Seeds
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootSeed
   name: random seed
   suffix: "Loot (Frontier), Hydroponics"
@@ -69,7 +69,7 @@
       tableId: TableDungeonLootHydroponicsSeeds
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootChemsHydroponics
   name: random chemicals
   suffix: "Loot (Frontier), Hydroponics"
@@ -91,7 +91,7 @@
 
 #region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesHydroponics
   name: random clothes
   suffix: "Loot (Frontier), Hydroponics"

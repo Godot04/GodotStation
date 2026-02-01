@@ -1,6 +1,6 @@
 # region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryClutter
   name: random clutter
   suffix: "Loot (Frontier), Mercenary"
@@ -21,7 +21,7 @@
       tableId: TableDungeonLootMercenaryClutter
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryClutterSec
   name: random clutter
   suffix: "Loot (Frontier), Security"
@@ -43,7 +43,7 @@
 
 # region Weapons
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryGuns
   name: random weapon
   suffix: "Loot (Frontier), Loose"
@@ -76,7 +76,7 @@
         weight: 0.15
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootVaultGuns
   name: random weapon
   suffix: "Loot (Frontier), Vault"
@@ -109,7 +109,7 @@
         weight: 0.05
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryMelee
   name: random weapon
   suffix: "Loot (Frontier), Melee"
@@ -130,7 +130,7 @@
       tableId: TableDungeonLootWeaponsMelee
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryRare
   name: random weapon
   suffix: "Loot (Frontier), Vault"
@@ -163,7 +163,7 @@
         weight: 0.1
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmoryExplosives
   name: random weapon
   suffix: "Loot (Frontier), Explosives"
@@ -185,7 +185,7 @@
 
 # region Shields
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootShieldsMercenary
   name: random shields
   suffix: "Loot (Frontier), Mercenary"
@@ -207,7 +207,7 @@
 
 # region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesMercenary
   name: random clothes
   suffix: "Loot (Frontier), Mercenary"
@@ -229,7 +229,7 @@
 
 # region Armor
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootArmorMercenary
   name: random armor
   suffix: "Loot (Frontier), Mercenary"
@@ -251,7 +251,7 @@
 
 # region Hardsuits
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootHardsuitsMercenary
   name: random hardsuits
   suffix: "Loot (Frontier), Mercenary"

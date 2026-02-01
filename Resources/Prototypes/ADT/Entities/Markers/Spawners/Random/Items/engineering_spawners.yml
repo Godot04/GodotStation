@@ -1,6 +1,6 @@
 #region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClutterEngi
   name: random clutter
   suffix: "Loot (Frontier), Engineering"
@@ -23,7 +23,7 @@
 
 #region Tools
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolsBasicEngineering
   name: random tool
   suffix: "Loot (Frontier), Engineering"
@@ -51,7 +51,7 @@
   categories: [ HideSpawnMenu ]
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolbox
   name: random toolbox
   suffix: Loot (Frontier)
@@ -73,7 +73,7 @@
 
 #region Parts
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootPartsEngi
   name: random parts
   suffix: Loot (Frontier)
@@ -94,7 +94,7 @@
       tableId: TableDungeonLootEngineeringParts
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootPowerCell
   name: random power cell
   suffix: Loot (Frontier)
@@ -115,7 +115,7 @@
       tableId: TableDungeonLootEngineeringPowerCells
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnPoiLootPowerCell
   name: random power cell
   suffix: Loot (Frontier)
@@ -136,7 +136,7 @@
       tableId: TablePoiLootEngineeringPowerCells
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootCircuitBoardEngi
   name: random machine board
   suffix: "Loot (Frontier), Engineering"
@@ -158,7 +158,7 @@
 
 #region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesEngi
   name: random clothes
   suffix: "Loot (Frontier), Engineering"
@@ -328,7 +328,7 @@
       tableId: TableDungeonLootEngineeringMachinesVending
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFlatpacksEngi
   name: random flatpack
   suffix: "Loot (Frontier), Engineering"

@@ -1,6 +1,6 @@
 # region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClutterKitchen
   name: random clutter
   suffix: "Loot (Frontier), Kitchen"
@@ -21,7 +21,7 @@
       tableId: TableDungeonLootServiceClutter
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnPoiLootClutterKitchen
   name: random clutter
   suffix: "Loot (Frontier), Kitchen"
@@ -43,7 +43,7 @@
 
 # region Tools
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootCutlery
   name: random cutlery
   suffix: Loot (Frontier)
@@ -65,7 +65,7 @@
 
 - type: entity
   id: SpawnDungeonLootMugs
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   name: random mug
   suffix: Loot (Frontier)
   components:
@@ -86,7 +86,7 @@
 
 # region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesKitchen
   name: random clothes
   suffix: "Loot (Frontier), Kitchen"
@@ -211,7 +211,7 @@
       tableId: TableDungeonLootServiceMachines
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFlatpacksService
   name: random flatpack
   suffix: "Loot (Frontier), Service"
@@ -232,7 +232,7 @@
 
 # region Other
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFood
   name: random food
   suffix: "Loot (Frontier), Spoiled"

@@ -1,6 +1,6 @@
 # region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterMedical
   name: random clutter
   suffix: "Loot (Frontier), Medical"
@@ -21,7 +21,7 @@
       tableId: TableDungeonLootMedicalClutter
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnPoiClutterMedical
   name: random clutter
   suffix: "Loot (Frontier), Medical"
@@ -43,7 +43,7 @@
 
 # region Tools
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootKitsFirstAid
   name: random medkit
   suffix: Loot (Frontier)
@@ -64,7 +64,7 @@
       tableId: TableDungeonLootMedicalFirstAidKits
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolsSurgeryCrude
   name: random tool
   suffix: "Loot (Frontier), Surgery, Improvised"
@@ -85,7 +85,7 @@
       tableId: TableDungeonLootMedicalToolsSurgeryImprovised
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolsSurgery
   name: random tool
   suffix: "Loot (Frontier), Surgery"
@@ -106,7 +106,7 @@
       tableId: TableDungeonLootMedicalToolsSurgeryCommon
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootToolsSurgeryAdvanced
   name: random tool
   suffix: "Loot (Frontier), Surgery, Advanced"
@@ -127,7 +127,7 @@
       tableId: TableDungeonLootMedicalToolsSurgeryAdvanced
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootKitSurgery
   name: random surgery kit
   suffix: Loot (Frontier)
@@ -148,7 +148,7 @@
       tableId: TableDungeonLootMedicalToolsSurgeryKit
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterBeakerEmpty
   name: random lab glassware
   suffix: "Loot (Frontier), Empty"
@@ -169,7 +169,7 @@
       tableId: TableDungeonLootMedicalToolsLabGlassware
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterSyringe
   name: random syringe
   suffix: Loot (Frontier), Filled
@@ -190,7 +190,7 @@
       tableId: TableDungeonLootMedicalToolsSyringesFilled
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterMedipens
   name: random medipens
   suffix: Loot (Frontier)
@@ -211,7 +211,7 @@
       tableId: TableDungeonLootMedicalToolsMedipens
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterHypospray
   name: random hypospray
   suffix: Loot (Frontier)
@@ -232,7 +232,7 @@
       tableId: TableDungeonLootMedicalToolsHyposprays
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterMedsFull
   name: random meds
   suffix: "Loot (Frontier), Full"
@@ -253,7 +253,7 @@
       tableId: TableDungeonLootMedicalToolsTopicalsFull
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterMedsSingle
   name: random meds
   suffix: "Loot (Frontier), Single"
@@ -274,7 +274,7 @@
       tableId: TableDungeonLootMedicalToolsTopicalsSingle
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootChems
   name: random chemicals
   suffix: "Loot (Frontier), Chemistry"
@@ -295,7 +295,7 @@
       tableId: TableDungeonLootMedicalGlasswareFilled
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterImplanter
   name: random implanter
   suffix: Loot (Frontier)
@@ -316,7 +316,7 @@
       tableId: TableDungeonLootMedicalToolsImplanters
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonClutterPatientTransport
   name: random patient transport
   suffix: Loot (Frontier)
@@ -338,7 +338,7 @@
 
 # region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesMed
   name: random clothes
   suffix: "Loot (Frontier), Medical"
@@ -465,7 +465,7 @@
 
 # region Flatpacks
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFlatpacksMed
   name: random flatpack
   suffix: "Loot (Frontier), Medical"
@@ -486,7 +486,7 @@
 
 # region Circuit Boards
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootCircuitBoardMed
   name: random machine board
   suffix: "Loot (Frontier), Medical"

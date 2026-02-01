@@ -1,7 +1,7 @@
 - type: entity
   name: random corpse
   id: SpawnDungeonRandomHumanCorpse
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   suffix: "Loot (Frontier), Corpse"
   components:
   - type: Sprite

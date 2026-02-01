@@ -1,6 +1,6 @@
 # region Clutter
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClutterScience
   name: random clutter
   suffix: "Loot (Frontier), Science"
@@ -23,7 +23,7 @@
 
 # region Parts
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootCircuitBoardScience
   name: random machine board
   suffix: "Loot (Frontier), Sciense"
@@ -45,7 +45,7 @@
 
 # region Clothes
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootClothesScience
   name: random clothes
   suffix: "Loot (Frontier), Science"
@@ -111,7 +111,7 @@
 
 # region Other
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootRnDDisk
   name: random disk
   suffix: Loot (Frontier)
@@ -132,7 +132,7 @@
       tableId: TableDungeonLootScienceDisks
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFlatpacksScience
   name: random flatpack
   suffix: "Loot (Frontier), Sciense"

@@ -1,6 +1,6 @@
 # region Bureaucracy
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootBureaucracy
   name: random clutter
   suffix: "Loot (Frontier), Bureaucracy"
@@ -21,7 +21,7 @@
       tableId: TableDungeonLootGeneralBureaucracy
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootBureaucracyPen
   categories: [ HideSpawnMenu ]
   name: random pen
@@ -278,7 +278,7 @@
       tableId: TableDungeonLootGeneralFrameComputer
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootFlatpacks
   name: random flatpack
   suffix: Loot (Frontier)
@@ -298,7 +298,7 @@
       tableId: TableDungeonLootGeneralFlatpacks
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootCircuitBoard
   name: random machine board
   suffix: "Loot (Frontier), General"
@@ -401,7 +401,7 @@
 
 #region Materials
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootMaterialsBasicSingle
   name: random materials
   suffix: "Loot (Frontier), Basic, Single"
@@ -421,7 +421,7 @@
       tableId: TableDungeonLootGeneralMaterialBasicSingle
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootMaterialsValuableSingle
   name: random materials
   suffix: "Loot (Frontier), Valuable, Single"
@@ -441,7 +441,7 @@
       tableId: TableDungeonLootGeneralMaterialValuableSingle
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootOresSingle
   name: random ores
   suffix: "Loot (Frontier), Single"
@@ -462,7 +462,7 @@
       tableId: TableDungeonLootGeneralOreSingle
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootMaterialsBasicFull
   name: random materials
   suffix: "Loot (Frontier), Basic"
@@ -482,7 +482,7 @@
       tableId: TableDungeonLootGeneralMaterialBasicFull
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootMaterialsValuableFull
   name: random materials
   suffix: "Loot (Frontier), Valuable"
@@ -502,7 +502,7 @@
       tableId: TableDungeonLootGeneralMaterialValuableFull
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootOresFull
   name: random ores
   suffix: "Loot (Frontier), Full"
@@ -524,7 +524,7 @@
 
 #region Other
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootVendingRestocks
   name: random restock box
   suffix: Loot (Frontier)
@@ -549,7 +549,7 @@
       tableId: TableDungeonLootGeneralRestocksStuff
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootSpesos
   name: random spesos
   suffix: Loot (Frontier)
@@ -570,7 +570,7 @@
       tableId: TableDungeonLootGeneralSpaceCash
 
 - type: entity
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   id: SpawnDungeonLootBriefcase
   name: random briefcase
   suffix: Loot (Frontier)
