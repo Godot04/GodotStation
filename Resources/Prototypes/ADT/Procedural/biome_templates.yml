@@ -516,8 +516,8 @@
 # Liquid plasma rivers.
     - !type:BiomeEntityLayer
       allowedTiles:
-      - FloorSnow
-      - FloorIce
+        - FloorSnow
+        - FloorIce
       threshold: 0.95
       noise:
         seed: 3
@@ -527,11 +527,11 @@
         fractalType: Ridged
         octaves: 1
       entities:
-      - FloorLiquidPlasmaEntity
+        - FloorLiquidPlasmaEntity
 # Snow chasmes?(idk how to write it right) da chasmes on da snow.
     - !type:BiomeEntityLayer
       allowedTiles:
-      - FloorSnow
+        - FloorSnow
       threshold: 0.95
       noise:
         seed: 4
@@ -541,7 +541,7 @@
         fractalType: Ridged
         octaves: 1
       entities:
-      - FloorSnowChasm
+        - FloorSnowChasm
 # (I don't Fuck'n know why there this piece of shit, ask corvax)
     - !type:BiomeDummyLayer
       id: Loot
@@ -662,7 +662,7 @@
 #Bottle of Water (Ботле оф воте) khm.. khm..
     - !type:BiomeEntityLayer
       allowedTiles:
-      - FloorDesert
+        - FloorDesert
       threshold: -0.93
       noise:
         seed: 3
@@ -672,7 +672,7 @@
         fractalType: Ridged
         octaves: 1
       entities:
-      - FloorWaterEntity
+        - FloorWaterEntity
 
 
 # ADT BFUU DESERT(yum)Planet
@@ -1062,7 +1062,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-      - FloorDesertChasm
+        - FloorDesertChasm
 
 #BFUU Planet update
 - type: biomeTemplate
