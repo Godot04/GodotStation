@@ -1,41 +1,50 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Made by dvir001 (GitHub), Pilot&ERT Mail Carrier marker made by erhardsteinhauer (discord)",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "green"
+    "version": 4,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by Adventure Time, justkekc, Blueshield and consultant_cc made by Tamioki, pathologist upgraded and sprite barber by discord:prazat911",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "ertmailcarrier"
-    },
-    {
-      "name": "ertmailcarriereva"
-    },
-    {
-      "name": "medic"
-    },
-    {
-      "name": "mercenary"
-    },
-    {
-      "name": "pilot"
-    },
-    {
-      "name": "plantmanager"
-    },
-    {
-      "name": "planttechnician"
-    },
-    {
-      "name": "securityguard"
-    },
-    {
-      "name": "stc"
-    }
-  ]
+    "states": [
+        {
+            "name": "green"
+        },
+        {
+            "name": "investigator"
+        },
+        {
+            "name": "magistrat"
+        },
+        {
+            "name": "iaa"
+        },
+        {
+            "name": "urist"
+        },
+        {
+            "name": "pathologist"
+        },
+        {
+            "name": "blueshield"
+        },
+        {
+            "name": "consultant_cc"
+        },
+        {
+            "name": "secborg"
+        },
+        {
+            "name": "correctionsofficer"
+        },
+        {
+            "name": "xeno_warning"
+        },
+        {
+            "name": "spiderclan"
+        },
+        {
+            "name": "barber"
+        }
+    ]
 }
