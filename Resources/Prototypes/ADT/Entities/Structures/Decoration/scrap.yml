@@ -408,24 +408,24 @@
         - BrokenGyroscope
       chance: 1
 
-- type: entity
-  name: Salvage Substation Spawner
-  id: SalvageSubstationSpawner
-  suffix: Salvage
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-      - state: red
-      - sprite: Structures/Power/Substation.rsi
-        state: substation_static
-    - type: RandomSpawner
-      rarePrototypes:
-        - SubstationBasic
-      rareChance: 0.3
-      prototypes:
-        - BrokenSubstation
-      chance: 1
+# - type: entity
+#   name: Salvage Substation Spawner
+#   id: SalvageSubstationSpawner
+#   suffix: Salvage
+#   parent: MarkerBase
+#   components:
+#     - type: Sprite
+#       layers:
+#       - state: red
+#       - sprite: Structures/Power/Substation.rsi
+#         state: substation_static
+#     - type: RandomSpawner
+#       rarePrototypes:
+#         - SubstationBasic
+#       rareChance: 0.3
+#       prototypes:
+#         - BrokenSubstation
+#       chance: 1
 
 - type: entity
   name: Salvage APC Spawner
