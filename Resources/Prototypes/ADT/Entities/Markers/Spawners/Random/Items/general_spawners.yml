@@ -152,27 +152,29 @@
     table: !type:NestedSelector
       tableId: TableDungeonLootGeneralCrates
 
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootCrateVehicle
-  name: random vehicle crate
-  suffix: "Loot (Frontier)"
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: Structures/Storage/Crates/livestock.rsi
-        state: base
-      - sprite: ADT/Objects/Vehicles/hoverbike.rsi
-        state: vehicle
-      - sprite: ADT/Markers/general.rsi
-        state: questionmark
-        color: red
-  - type: EntityTableSpawner
-    offset: 0.0
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootGeneralCratesVehicle
+# TODO: Fix hoverbike.rsi path - RSI doesn't exist at ADT/Objects/Vehicles/hoverbike.rsi
+# Реальный путь: ADT/ADTGlobalEvents/ShipBattle/Objects/Vehicles/hoverbike.rsi
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootCrateVehicle
+#   name: random vehicle crate
+#   suffix: "Loot (Frontier)"
+#   components:
+#   - type: Sprite
+#     layers:
+#       - state: green
+#       - sprite: Structures/Storage/Crates/livestock.rsi
+#         state: base
+#       - sprite: ADT/Objects/Vehicles/hoverbike.rsi
+#         state: vehicle
+#       - sprite: ADT/Markers/general.rsi
+#         state: questionmark
+#         color: red
+#   - type: EntityTableSpawner
+#     offset: 0.0
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootGeneralCratesVehicle
 
 - type: entity
   parent: MarkerBase
