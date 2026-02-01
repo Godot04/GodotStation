@@ -470,36 +470,36 @@
         cellularReturnType: Distance2
       entities:
         - WallRockSnowBananium
-    # - !type:BiomeEntityLayer
-    #   allowedTiles:
-    #     - FloorIce
-    #   threshold: -0.03
-    #   noise:
-    #     seed: 100
-    #     noiseType: Cellular
-    #     frequency: 0.15
-    #     lacunarity: 2
-    #     fractalType: FBm
-    #     octaves: 4
-    #     cellularDistanceFunction: Euclidean
-    #     cellularReturnType: Distance2
-    #   entities:
-    #     - WallRockSnowCopper
-    # - !type:BiomeEntityLayer
-    #   allowedTiles:
-    #     - FloorIce
-    #   threshold: -0.03
-    #   noise:
-    #     seed: 100
-    #     noiseType: Cellular
-    #     frequency: 0.15
-    #     lacunarity: 2
-    #     fractalType: FBm
-    #     octaves: 4
-    #     cellularDistanceFunction: Euclidean
-    #     cellularReturnType: Distance2
-    #   entities:
-    #     - WallRockSnowZinc
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorIce
+      threshold: -0.03
+      noise:
+        seed: 100
+        noiseType: Cellular
+        frequency: 0.15
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 4
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockSnowCopper
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorIce
+      threshold: -0.03
+      noise:
+        seed: 100
+        noiseType: Cellular
+        frequency: 0.15
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 4
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockSnowZinc
 # Snow tiles islands
     - !type:BiomeTileLayer
       tile: FloorSnow
@@ -698,6 +698,17 @@
         frequency: 1
       entities:
         - ADTLavalandCactusSpawner
+# Dead trees/stumps in the desert
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorDesert
+      threshold: 0.985
+      noise:
+        seed: 5
+        noiseType: OpenSimplex2
+        frequency: 0.8
+      entities:
+        - FloraTreeStump
 # nice resource to build up house (down layer of the oasis part)
     - !type:BiomeTileLayer
       threshold: 0.85
@@ -1006,36 +1017,36 @@
         cellularReturnType: Distance2
       entities:
         - WallRockSandBananium
-    # - !type:BiomeEntityLayer
-    #   allowedTiles:
-    #     - FloorDesert
-    #   threshold: 0.05
-    #   noise:
-    #     seed: 100
-    #     noiseType: Cellular
-    #     frequency: 0.15
-    #     lacunarity: 2
-    #     fractalType: FBm
-    #     octaves: 4
-    #     cellularDistanceFunction: Euclidean
-    #     cellularReturnType: Distance2
-    #   entities:
-    #     - WallRockSandCopper
-    # - !type:BiomeEntityLayer
-    #   allowedTiles:
-    #     - FloorDesert
-    #   threshold: 0.05
-    #   noise:
-    #     seed: 100
-    #     noiseType: Cellular
-    #     frequency: 0.15
-    #     lacunarity: 2
-    #     fractalType: FBm
-    #     octaves: 4
-    #     cellularDistanceFunction: Euclidean
-    #     cellularReturnType: Distance2
-    #   entities:
-    #     - WallRockSandZinc
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorDesert
+      threshold: 0.05
+      noise:
+        seed: 100
+        noiseType: Cellular
+        frequency: 0.15
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 4
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockSandCopper
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorDesert
+      threshold: 0.05
+      noise:
+        seed: 100
+        noiseType: Cellular
+        frequency: 0.15
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 4
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockSandZinc
 # Oops... Quicksand is over... Falling will be fast.
     - !type:BiomeEntityLayer
       allowedTiles:
