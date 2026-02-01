@@ -408,6 +408,9 @@
         - BrokenGyroscope
       chance: 1
 
+# TODO: Fix Substation.rsi loading error
+# Error: "Unable to load layer RSI '/Textures/Structures/Power/Substation.rsi'"
+# Раскомментировать когда будет исправлена загрузка RSI
 # - type: entity
 #   name: Salvage Substation Spawner
 #   id: SalvageSubstationSpawner
