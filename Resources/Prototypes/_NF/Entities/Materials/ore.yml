@@ -60,7 +60,7 @@
 - type: entity
   name: refined scrap
   id: SpawnRandomRefinedScrap
-  parent: MarkerBasePlaceFree
+  parent: MarkerBase
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
