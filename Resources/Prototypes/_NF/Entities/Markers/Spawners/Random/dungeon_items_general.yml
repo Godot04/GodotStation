@@ -195,7 +195,7 @@
     layers:
       - state: green
       - sprite: Structures/Storage/closet.rsi
-        state: fire
+        state: emergency
       - sprite: Structures/Storage/closet.rsi
         state: fire_door
       - sprite: Markers/cross.rsi
@@ -1112,6 +1112,115 @@
 #    rarePrototypes:
 #    - VendingMachineRestockSyndieContraband # A bit less Syndicate loot
 #    rareChance: 0.001
+
+# Medical flatpack spawner
+- type: entity
+  name: random flatpack
+  id: SpawnDungeonLootFlatpacksMed
+  parent: MarkerBasePlaceFree
+  suffix: "Dungeon, Medical"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Devices/flatpack.rsi
+        state: icon-default
+      - sprite: Markers/cross.rsi
+        state: red
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - CloningPodFlatpack
+    - StasisBedFlatpack
+    - MedicalTechFabFlatpack
+    - ChemDispenserFlatpack
+    - ChemMasterFlatpack
+    chance: 0.95
+    offset: 0.0
+    rarePrototypes:
+    - DefibrillatorFlatpack
+    rareChance: 0.05
+
+# Supply/Cargo flatpack spawner
+- type: entity
+  name: random flatpack
+  id: SpawnDungeonLootFlatpacksSuppl
+  parent: MarkerBasePlaceFree
+  suffix: "Dungeon, Supply"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Devices/flatpack.rsi
+        state: icon-default
+      - sprite: Markers/cross.rsi
+        state: red
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - VendingMachineBoozeFlatpack
+    - VendingMachineCigsFlatpack
+    - VendingMachineFlatpackVend
+    - CargoPalletFrameFlatpack
+    chance: 0.95
+    offset: 0.0
+    rarePrototypes:
+    - VendingMachineExpeditionaryFlatpackVend
+    rareChance: 0.05
+
+# Science flatpack spawner
+- type: entity
+  name: random flatpack
+  id: SpawnDungeonLootFlatpacksScience
+  parent: MarkerBasePlaceFree
+  suffix: "Dungeon, Science"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Devices/flatpack.rsi
+        state: icon-default
+      - sprite: Markers/cross.rsi
+        state: red
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - ScienceTechFabFlatpack
+    - ArtifactAnalyzerFlatpack
+    - ResearchAndDevelopmentServerFlatpack
+    - ComputerResearchAndDevelopmentFlatpack
+    chance: 0.95
+    offset: 0.0
+    rarePrototypes:
+    - MercenaryTechFabFlatpack
+    rareChance: 0.05
+
+# Service flatpack spawner
+- type: entity
+  name: random flatpack
+  id: SpawnDungeonLootFlatpacksService
+  parent: MarkerBasePlaceFree
+  suffix: "Dungeon, Service"
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Devices/flatpack.rsi
+        state: icon-default
+      - sprite: Markers/cross.rsi
+        state: red
+        color: red
+  - type: RandomSpawner
+    prototypes:
+    - ServiceTechFabFlatpack
+    - JukeboxFlatpack
+    - DawInstrumentFlatpack
+    - MinimoogInstrumentFlatpack
+    chance: 0.95
+    offset: 0.0
+    rarePrototypes:
+    - VendingMachineClothingPunkFlatpack
+    rareChance: 0.05
 
 
 
