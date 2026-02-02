@@ -78,14 +78,18 @@
     - SpawnDungeonLootMaterialsBasicSingle
     - SpawnDungeonLootMaterialsBasicSingle
     - SpawnDungeonLootOresSingle
-    - SpawnDungeonLootToolsBasicEngineering
+    - Wrench
+    - Screwdriver
+    - Wirecutter
+    - Crowbar
+    - Welder
     chance: 1.0
     offset: 0.0
     rarePrototypes:
     - MaterialBananium1
     - MaterialBones1
     - SpawnDungeonLootMaterialsValuableSingle
-    - SpawnDungeonLootPartsEngi
+    - SpawnDungeonLootCircuitBoard
     - SpawnDungeonLootCircuitBoard
     rareChance: 0.005
 
