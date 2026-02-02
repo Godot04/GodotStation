@@ -47,9 +47,9 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
+      - sprite: Objects/Tools/wrench.rsi # Frontier: separate sprites (add _NF folder)
         state: icon
-      - sprite: _NF/Objects/Tools/crowbar.rsi # Frontier: separate sprites (add _NF folder)
+      - sprite: Objects/Tools/crowbar.rsi # Frontier: separate sprites (add _NF folder)
         state: icon
       - sprite: Markers/cross.rsi
         state: red
@@ -438,7 +438,7 @@
     layers:
       - state: green
         scale: 0.7, 0.7
-      - sprite: _NF/Objects/Misc/stock_parts.rsi
+      - sprite: Objects/Misc/stock_parts.rsi
         state: bluespace_matter_bin
       - sprite: Markers/cross.rsi
         state: red
@@ -567,7 +567,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: _NF/Objects/Devices/flatpack.rsi
+      - sprite: Objects/Devices/flatpack.rsi
         state: engineering_lathe
       - sprite: Markers/cross.rsi
         state: red
@@ -595,5 +595,6 @@
     - AmeControllerUnanchoredFlatpack
     - RadiationCollectorFullTankFlatpack
     rareChance: 0.05
+
 
 
