@@ -32,9 +32,9 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Tools/wrench.rsi
+    - sprite: Objects/Tools/wrench.rsi
       state: icon
-    - sprite: ADT/Objects/Tools/crowbar.rsi
+    - sprite: Objects/Tools/crowbar.rsi
       state: icon
     - sprite: ADT/Markers/general.rsi
       state: questionmark
@@ -82,7 +82,7 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Misc/stock_parts.rsi
+    - sprite: Objects/Misc/stock_parts.rsi
       state: bluespace_matter_bin
     - sprite: ADT/Markers/general.rsi
       state: questionmark

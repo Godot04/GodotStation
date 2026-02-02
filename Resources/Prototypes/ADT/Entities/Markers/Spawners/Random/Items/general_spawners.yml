@@ -97,7 +97,7 @@
     layers:
       - state: green
       - sprite: Structures/Storage/closet.rsi
-        state: fire
+        state: generic
       - sprite: Structures/Storage/closet.rsi
         state: fire_door
       - sprite: ADT/Markers/general.rsi
