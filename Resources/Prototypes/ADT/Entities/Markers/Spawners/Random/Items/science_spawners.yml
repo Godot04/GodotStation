@@ -76,7 +76,7 @@
     layers:
       - state: green
       - sprite: Structures/Storage/closet.rsi
-        state: eng_secure
+        state: eng_secure_open
       - sprite: Structures/Storage/closet.rsi
         state: eng_secure_door
       - sprite: ADT/Markers/general.rsi
