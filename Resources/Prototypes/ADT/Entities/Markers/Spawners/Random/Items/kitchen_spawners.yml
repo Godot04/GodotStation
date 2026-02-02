@@ -220,7 +220,7 @@
     layers:
       - state: green
       - sprite: Objects/Devices/flatpack.rsi
-        state: engineering_lathe
+        state: icon-default
       - sprite: ADT/Markers/general.rsi
         state: questionmark
         color: red
