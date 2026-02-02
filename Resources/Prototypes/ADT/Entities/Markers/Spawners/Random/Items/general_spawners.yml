@@ -589,7 +589,7 @@
     layers:
       - state: green
       - sprite: Objects/Misc/flare.rsi
-        state: flare
+        state: icon
       - sprite: Markers/cross.rsi
         state: red
   - type: EntityTableSpawner
