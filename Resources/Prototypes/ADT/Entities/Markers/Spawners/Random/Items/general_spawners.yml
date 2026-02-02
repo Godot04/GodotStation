@@ -602,7 +602,7 @@
     layers:
       - state: green
       - sprite: ADT/Structures/Storage/canister.rsi
-        state: storage-1
+        state: brown-1
       - sprite: ADT/Markers/general.rsi
         state: questionmark
         color: red
