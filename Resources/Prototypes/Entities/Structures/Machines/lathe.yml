@@ -714,6 +714,7 @@
       - OreSmelting
       - RGlassSmelting
       - ADTBScrystalSmelting #ADT Tweak
+      - ScrapSmeltingBasic #ADT Scrap tweak
     # ADT tweak start
     - type: AutoMaterialInsert
       tag: ADTOreBag
@@ -741,7 +742,8 @@
     - RGlassSmelting
     - AdvancedSmelting
     - ADTBScrystalSmelting #ADT Tweak
-    - SmeltScrap #ADT tweak
+    - ScrapSmeltingBasic #ADT Scrap tweak
+    - ScrapSmeltingAdvanced #ADT Scrap tweak
 
 - type: entity
   parent: BaseLathe
