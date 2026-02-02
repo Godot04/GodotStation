@@ -336,7 +336,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: ADT/Objects/Devices/flatpack.rsi
+      - sprite: Objects/Devices/flatpack.rsi
         state: engineering_lathe
       - sprite: ADT/Markers/general.rsi
         state: questionmark

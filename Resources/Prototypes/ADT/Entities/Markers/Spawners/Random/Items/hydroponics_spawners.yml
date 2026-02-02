@@ -109,7 +109,7 @@
     offset: 0.1
     deleteSpawnerAfterSpawn: false
     table: !type:NestedSelector
-      tableId: TableDungeonLootEngineeringClothes
+      tableId: TableDungeonLootHydroponicsClothes
 
 #region Lockers
 
