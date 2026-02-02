@@ -68,7 +68,7 @@
       - state: green
       - sprite: _NF/Objects/Materials/ore.rsi
         state: scrapore
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -88,3 +88,4 @@
     - SpawnDungeonLootPartsEngi
     - SpawnDungeonLootCircuitBoard
     rareChance: 0.005
+

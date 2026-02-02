@@ -12,7 +12,7 @@
       - sprite: Objects/Misc/skub.rsi
         scale: 0.7, 0.7
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -51,7 +51,7 @@
         state: icon
       - sprite: _NF/Objects/Tools/crowbar.rsi # Frontier: separate sprites (add _NF folder)
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -92,7 +92,7 @@
         scale: 0.7, 0.7
       - sprite: Objects/Tools/drill.rsi
         state: drill_screw
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -123,7 +123,7 @@
         scale: 0.7, 0.7
       - sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -154,7 +154,7 @@
         scale: 0.7, 0.7
       - sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -186,7 +186,7 @@
         state: eng_secure
       - sprite: Structures/Storage/closet.rsi
         state: eng_secure_door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -224,7 +224,7 @@
         state: base
       - sprite: Structures/Storage/suit_storage.rsi
         state: door
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -254,7 +254,7 @@
       - state: green
       - sprite: Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -325,7 +325,7 @@
       - state: green
       - sprite: Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -349,7 +349,7 @@
       - state: green
       - sprite: Structures/Storage/Crates/engineering.rsi
         state: icon
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -376,7 +376,7 @@
         state: icon
       - sprite: Structures/Machines/techfab.rsi
         state: engi
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -409,7 +409,7 @@
       - state: green
       - sprite: Structures/Machines/VendingMachines/youtool.rsi
         state: off
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -440,7 +440,7 @@
         scale: 0.7, 0.7
       - sprite: _NF/Objects/Misc/stock_parts.rsi
         state: bluespace_matter_bin
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -488,7 +488,7 @@
         scale: 0.7, 0.7
       - sprite: Objects/Power/power_cells.rsi
         state: hyper
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -515,7 +515,7 @@
         scale: 0.7, 0.7
       - sprite: Objects/Misc/module.rsi
         state: science
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -569,7 +569,7 @@
       - state: green
       - sprite: _NF/Objects/Devices/flatpack.rsi
         state: engineering_lathe
-      - sprite: _NF/Markers/general.rsi
+      - sprite: Markers/cross.rsi
         state: questionmark
         color: red
   - type: RandomSpawner
@@ -595,3 +595,4 @@
     - AmeControllerUnanchoredFlatpack
     - RadiationCollectorFullTankFlatpack
     rareChance: 0.05
+
