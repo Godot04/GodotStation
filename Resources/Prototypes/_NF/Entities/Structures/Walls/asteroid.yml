@@ -315,30 +315,6 @@
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
-  id: WallRockScrapPileBluespace
-  parent: WallRockScrapPile
-  description: An ore vein with bluespace.
-  suffix: Bluespace
-  components:
-  - type: OreVein
-    oreChance: 1.0
-    currentOre: OreBluespace
-  - type: Sprite
-    layers:
-    - state: scraprock01
-      map: [ "scraprock_variant" ]
-    - map: [ "enum.EdgeLayer.South" ]
-      state: scraprock_south
-    - map: [ "enum.EdgeLayer.East" ]
-      state: scraprock_east
-    - map: [ "enum.EdgeLayer.North" ]
-      state: scraprock_north
-    - map: [ "enum.EdgeLayer.West" ]
-      state: scraprock_west
-    - state: rock_bluespace
-      map: [ "enum.MiningScannerVisualLayers.Overlay" ]
-
-- type: entity
   id: AsteroidScrapPileMining
   parent: WallRockScrapPile
   suffix: higher ore yield .33
@@ -354,7 +330,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: AsteroidRockSilverCrabNF
@@ -362,7 +338,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: AsteroidRockTinCrabNF
@@ -370,7 +346,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: AsteroidRockUraniumCrabNF
@@ -378,7 +354,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 # Bananium
 ## Bananium CrabNFs
@@ -390,7 +366,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockBasaltBananiumCrabNF
@@ -399,7 +375,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: AsteroidRockBananiumCrabNF
@@ -408,7 +384,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockBananiumCrabNF
@@ -417,7 +393,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockSandBananiumCrabNF
@@ -426,7 +402,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockSnowBananiumCrabNF
@@ -435,7 +411,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockChromiteBananiumCrabNF
@@ -444,7 +420,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumCrabNF
+      currentOre: OreBananiumCrab
 
 ## Bananium golems
 
@@ -455,7 +431,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockBasaltBananiumGolem
@@ -464,7 +440,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: AsteroidRockBananiumGolem
@@ -473,7 +449,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockBananiumGolem
@@ -482,7 +458,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockSandBananiumGolem
@@ -491,7 +467,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockSnowBananiumGolem
@@ -500,7 +476,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 - type: entity
   id: WallRockChromiteBananiumGolem
@@ -509,7 +485,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreBananiumGolem
+      currentOre: OreBananiumCrab
 
 # Coal
 ## Coal crabs
@@ -521,7 +497,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockBasaltCoalCrabNF
@@ -530,7 +506,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: AsteroidRockCoalCrabNF
@@ -539,7 +515,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockCoalCrabNF
@@ -548,7 +524,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockSandCoalCrabNF
@@ -557,7 +533,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockSnowCoalCrabNF
@@ -566,7 +542,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockChromiteCoalCrabNF
@@ -575,7 +551,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalCrabNF
+      currentOre: OreCoalCrab
 
 ## Coal golems
 
@@ -586,7 +562,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockBasaltCoalGolem
@@ -595,7 +571,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: AsteroidRockCoalGolem
@@ -604,7 +580,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockCoalGolem
@@ -613,7 +589,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockSandCoalGolem
@@ -622,7 +598,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockSnowCoalGolem
@@ -631,7 +607,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 - type: entity
   id: WallRockChromiteCoalGolem
@@ -640,7 +616,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreCoalGolem
+      currentOre: OreCoalCrab
 
 # Gold
 ## Gold crabs
@@ -652,7 +628,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockBasaltGoldCrabNF
@@ -661,7 +637,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: AsteroidRockGoldCrabNF
@@ -670,7 +646,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockGoldCrabNF
@@ -679,7 +655,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockSandGoldCrabNF
@@ -688,7 +664,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockSnowGoldCrabNF
@@ -697,7 +673,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockChromiteGoldCrabNF
@@ -706,7 +682,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldCrabNF
+      currentOre: OreGoldCrab
 
 ## Gold golems
 
@@ -717,7 +693,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockBasaltGoldGolem
@@ -726,7 +702,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: AsteroidRockGoldGolem
@@ -735,7 +711,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockGoldGolem
@@ -744,7 +720,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockSandGoldGolem
@@ -753,7 +729,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockSnowGoldGolem
@@ -762,7 +738,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 - type: entity
   id: WallRockChromiteGoldGolem
@@ -771,7 +747,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreGoldGolem
+      currentOre: OreGoldCrab
 
 # Iron. Steel?
 ## Iron crabs
@@ -783,7 +759,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockBasaltIronCrabNF
@@ -792,7 +768,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockIronCrabNF
@@ -801,7 +777,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockSandIronCrabNF
@@ -810,7 +786,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockSnowIronCrabNF
@@ -819,7 +795,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockChromiteIronCrabNF
@@ -828,7 +804,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronCrabNF
+      currentOre: OreIronCrab
 
 ## Iron golems
 
@@ -839,7 +815,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockBasaltIronGolem
@@ -848,7 +824,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: AsteroidRockIronGolem
@@ -857,7 +833,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockIronGolem
@@ -866,7 +842,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockSandIronGolem
@@ -875,7 +851,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockSnowIronGolem
@@ -884,7 +860,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 - type: entity
   id: WallRockChromiteIronGolem
@@ -893,7 +869,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreIronGolem
+      currentOre: OreIronCrab
 
 # Plasma
 ## Plasma crabs
@@ -905,7 +881,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockBasaltPlasmaCrabNF
@@ -914,7 +890,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: AsteroidRockPlasmaCrabNF
@@ -923,7 +899,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockPlasmaCrabNF
@@ -932,7 +908,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockSandPlasmaCrabNF
@@ -941,7 +917,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockSnowPlasmaCrabNF
@@ -950,7 +926,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockChromitePlasmaCrabNF
@@ -959,7 +935,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaCrabNF
+      currentOre: OrePlasma
 
 ## Plasma golems
 
@@ -970,7 +946,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockBasaltPlasmaGolem
@@ -979,7 +955,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: AsteroidRockPlasmaGolem
@@ -988,7 +964,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockPlasmaGolem
@@ -997,7 +973,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockSandPlasmaGolem
@@ -1006,7 +982,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockSnowPlasmaGolem
@@ -1015,7 +991,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 - type: entity
   id: WallRockChromitePlasmaGolem
@@ -1024,7 +1000,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OrePlasmaGolem
+      currentOre: OrePlasma
 
 # Quartz
 ## Quartz crabs
@@ -1036,7 +1012,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockBasaltQuartzCrabNF
@@ -1045,7 +1021,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockQuartzCrabNF
@@ -1054,7 +1030,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockSandQuartzCrabNF
@@ -1063,7 +1039,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockSnowQuartzCrabNF
@@ -1072,7 +1048,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockChromiteQuartzCrabNF
@@ -1081,7 +1057,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzCrabNF
+      currentOre: OreQuartzCrab
 
 ## Quartz golems
 
@@ -1092,7 +1068,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockBasaltQuartzGolem
@@ -1101,7 +1077,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: AsteroidRockQuartzGolem
@@ -1110,7 +1086,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockQuartzGolem
@@ -1119,7 +1095,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockSandQuartzGolem
@@ -1128,7 +1104,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockSnowQuartzGolem
@@ -1137,7 +1113,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 - type: entity
   id: WallRockChromiteQuartzGolem
@@ -1146,7 +1122,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreQuartzGolem
+      currentOre: OreQuartzCrab
 
 # Salt
 ## Salt crabs
@@ -1158,7 +1134,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockBasaltSaltCrabNF
@@ -1167,7 +1143,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: AsteroidRockSaltCrabNF
@@ -1176,7 +1152,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSaltCrabNF
@@ -1185,7 +1161,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSandSaltCrabNF
@@ -1194,7 +1170,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSnowSaltCrabNF
@@ -1203,7 +1179,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockChromiteSaltCrabNF
@@ -1212,7 +1188,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltCrabNF
+      currentOre: OreSalt
 
 ## Salt golems
 
@@ -1223,7 +1199,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockBasaltSaltGolem
@@ -1232,7 +1208,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: AsteroidRockSaltGolem
@@ -1241,7 +1217,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSaltGolem
@@ -1250,7 +1226,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSandSaltGolem
@@ -1259,7 +1235,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockSnowSaltGolem
@@ -1268,7 +1244,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
 - type: entity
   id: WallRockChromiteSaltGolem
@@ -1277,7 +1253,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSaltGolem
+      currentOre: OreSalt
 
  # Silver
 ## Silver crabs
@@ -1289,7 +1265,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockBasaltSilverCrabNF
@@ -1298,7 +1274,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSilverCrabNF
@@ -1307,7 +1283,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSandSilverCrabNF
@@ -1316,7 +1292,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSnowSilverCrabNF
@@ -1325,7 +1301,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockChromiteSilverCrabNF
@@ -1334,7 +1310,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverCrabNF
+      currentOre: OreSilverCrab
 
 ## Silver golems
 
@@ -1345,7 +1321,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockBasaltSilverGolem
@@ -1354,7 +1330,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: AsteroidRockSilverGolem
@@ -1363,7 +1339,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSilverGolem
@@ -1372,7 +1348,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSandSilverGolem
@@ -1381,7 +1357,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockSnowSilverGolem
@@ -1390,7 +1366,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
 - type: entity
   id: WallRockChromiteSilverGolem
@@ -1399,7 +1375,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreSilverGolem
+      currentOre: OreSilverCrab
 
  # Uranium
 ## Uranium crabs
@@ -1411,7 +1387,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockBasaltUraniumCrabNF
@@ -1420,7 +1396,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockUraniumCrabNF
@@ -1429,7 +1405,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockSandUraniumCrabNF
@@ -1438,7 +1414,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockSnowUraniumCrabNF
@@ -1447,7 +1423,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockChromiteUraniumCrabNF
@@ -1456,7 +1432,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumCrabNF
+      currentOre: OreUraniumCrab
 
 ## Uranium golems
 
@@ -1467,7 +1443,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockBasaltUraniumGolem
@@ -1476,7 +1452,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: AsteroidRockUraniumGolem
@@ -1485,7 +1461,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockUraniumGolem
@@ -1494,7 +1470,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockSandUraniumGolem
@@ -1503,7 +1479,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockSnowUraniumGolem
@@ -1512,7 +1488,7 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
 
 - type: entity
   id: WallRockChromiteUraniumGolem
@@ -1521,5 +1497,6 @@
   components:
     - type: OreVein
       oreChance: 1.0
-      currentOre: OreUraniumGolem
+      currentOre: OreUraniumCrab
+
 
