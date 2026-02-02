@@ -71,27 +71,6 @@
       - sprite: Markers/cross.rsi
         state: red
         color: red
-  - type: RandomSpawner
-    prototypes:
-    - SpawnDungeonLootMaterialsBasicSingle
-    - SpawnDungeonLootMaterialsBasicSingle
-    - SpawnDungeonLootMaterialsBasicSingle
-    - SpawnDungeonLootMaterialsBasicSingle
-    - SpawnDungeonLootOresSingle
-    - Wrench
-    - Screwdriver
-    - Wirecutter
-    - Crowbar
-    - Welder
-    chance: 1.0
-    offset: 0.0
-    rarePrototypes:
-    - MaterialBananium1
-    - MaterialBones1
-    - SpawnDungeonLootMaterialsValuableSingle
-    - SpawnDungeonLootCircuitBoard
-    - SpawnDungeonLootCircuitBoard
-    rareChance: 0.005
 
 
 

@@ -47,7 +47,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreCoal
+    currentOre: OreCoal
   - type: Sprite
     layers:
     - state: scraprock01
@@ -72,7 +72,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreGold
+    currentOre: OreGold
   - type: Sprite
     layers:
     - state: scraprock01
@@ -122,7 +122,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOrePlasma
+    currentOre: OrePlasma
   - type: Sprite
     layers:
     - state: scraprock01
@@ -147,7 +147,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreSpaceQuartz
+    currentOre: OreSpaceQuartz
   - type: Sprite
     layers:
     - state: scraprock01
@@ -172,7 +172,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreSilver
+    currentOre: OreSilver
   - type: Sprite
     layers:
     - state: scraprock01
@@ -197,7 +197,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreSteel
+    currentOre: OreIron
   - type: Sprite
     layers:
     - state: scraprock01
@@ -222,7 +222,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreUranium
+    currentOre: OreUranium
   - type: Sprite
     layers:
     - state: scraprock01
@@ -247,7 +247,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreBananium
+    currentOre: OreBananium
   - type: Sprite
     layers:
     - state: scraprock01
@@ -272,7 +272,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: NFOreSalt
+    currentOre: OreSalt
   - type: Sprite
     layers:
     - state: scraprock01
