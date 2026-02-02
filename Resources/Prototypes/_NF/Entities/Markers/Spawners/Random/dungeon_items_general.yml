@@ -1033,7 +1033,7 @@
     layers:
       - state: green
       - sprite: Objects/Devices/flatpack.rsi
-        state: engineering_lathe
+        state: icon-default
       - sprite: Markers/cross.rsi
         state: red
         color: red
