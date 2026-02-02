@@ -1,20 +1,21 @@
-- type: entity
-  name: random corpse
-  id: SpawnDungeonRandomHumanCorpse
-  parent: MarkerBase
-  suffix: "Loot (Frontier), Corpse"
-  components:
-  - type: Sprite
-    sprite: Markers/jobs.rsi
-    layers:
-    - state: green
-    - sprite: Structures/Storage/Crates/coffin.rsi
-      state: base
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootCorpse
+# ADT TODO: Commented out - requires Frontier-specific entities
+# - type: entity
+#   name: random corpse
+#   id: SpawnDungeonRandomHumanCorpse
+#   parent: MarkerBase
+#   suffix: "Loot (Frontier), Corpse"
+#   components:
+#   - type: Sprite
+#     sprite: Markers/jobs.rsi
+#     layers:
+#     - state: green
+#     - sprite: Structures/Storage/Crates/coffin.rsi
+#       state: base
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootCorpse

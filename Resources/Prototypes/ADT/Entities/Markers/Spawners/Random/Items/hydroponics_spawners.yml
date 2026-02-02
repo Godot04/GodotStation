@@ -1,175 +1,176 @@
-#region Clutter
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootClutterHydroponics
-  name: random clutter
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Objects/Tools/Hydroponics/spade.rsi
-      state: icon
-    - sprite: Objects/Tools/Hydroponics/hatchet.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsClutter
-
-#region Tools
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootToolsHydroponics
-  name: random tool
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Objects/Tools/Hydroponics/spade.rsi
-      state: icon
-    - sprite: Objects/Tools/Hydroponics/hatchet.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsTools
-
-#region Chems / Seeds
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootSeed
-  name: random seed
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Objects/Specific/Hydroponics/seeds.rsi
-      state: seed-alien3
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsSeeds
-
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootChemsHydroponics
-  name: random chemicals
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Objects/Specific/Chemistry/beaker.rsi
-      state: beaker
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsChemicals
-
-#region Clothes
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootClothesHydroponics
-  name: random clothes
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-      scale: 0.7, 0.7
-    - sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0.1
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsClothes
-
-#region Lockers
-
-#region Crates
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootCrateHydro
-  name: random crate
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Structures/Storage/Crates/hydroponics.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsCrates
-
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootCrateEmptyHydro
-  name: random crate (empty)
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Structures/Storage/Crates/plastic.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsCratesEmpty
-
-- type: entity
-  parent: MarkerBase
-  id: SpawnDungeonLootCrateRestockHydro
-  name: random crate (restock)
-  suffix: "Loot (Frontier), Hydroponics"
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Structures/Storage/Crates/plastic.rsi
-      state: icon
-    - sprite: ADT/Markers/general.rsi
-      state: questionmark
-      color: red
-  - type: EntityTableSpawner
-    offset: 0
-    deleteSpawnerAfterSpawn: false
-    table: !type:NestedSelector
-      tableId: TableDungeonLootHydroponicsCratesRestock
+# ADT TODO: Commented out - requires Frontier-specific entities
+# #region Clutter
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootClutterHydroponics
+#   name: random clutter
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#       scale: 0.7, 0.7
+#     - sprite: Objects/Tools/Hydroponics/spade.rsi
+#       state: icon
+#     - sprite: Objects/Tools/Hydroponics/hatchet.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsClutter
+# 
+# #region Tools
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootToolsHydroponics
+#   name: random tool
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#       scale: 0.7, 0.7
+#     - sprite: Objects/Tools/Hydroponics/spade.rsi
+#       state: icon
+#     - sprite: Objects/Tools/Hydroponics/hatchet.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsTools
+# 
+# #region Chems / Seeds
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootSeed
+#   name: random seed
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#       scale: 0.7, 0.7
+#     - sprite: Objects/Specific/Hydroponics/seeds.rsi
+#       state: seed-alien3
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsSeeds
+# 
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootChemsHydroponics
+#   name: random chemicals
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#       scale: 0.7, 0.7
+#     - sprite: Objects/Specific/Chemistry/beaker.rsi
+#       state: beaker
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsChemicals
+# 
+# #region Clothes
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootClothesHydroponics
+#   name: random clothes
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#       scale: 0.7, 0.7
+#     - sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0.1
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsClothes
+# 
+# #region Lockers
+# 
+# #region Crates
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootCrateHydro
+#   name: random crate
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#     - sprite: Structures/Storage/Crates/hydroponics.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsCrates
+# 
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootCrateEmptyHydro
+#   name: random crate (empty)
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#     - sprite: Structures/Storage/Crates/plastic.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsCratesEmpty
+# 
+# - type: entity
+#   parent: MarkerBase
+#   id: SpawnDungeonLootCrateRestockHydro
+#   name: random crate (restock)
+#   suffix: "Loot (Frontier), Hydroponics"
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: green
+#     - sprite: Structures/Storage/Crates/plastic.rsi
+#       state: icon
+#     - sprite: ADT/Markers/general.rsi
+#       state: questionmark
+#       color: red
+#   - type: EntityTableSpawner
+#     offset: 0
+#     deleteSpawnerAfterSpawn: false
+#     table: !type:NestedSelector
+#       tableId: TableDungeonLootHydroponicsCratesRestock
