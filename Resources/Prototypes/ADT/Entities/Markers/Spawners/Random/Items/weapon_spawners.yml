@@ -355,8 +355,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: base
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
@@ -375,8 +375,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: base
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
@@ -395,8 +395,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: rubber
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
@@ -415,8 +415,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: practice
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
@@ -435,8 +435,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: incendiary
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
@@ -455,8 +455,8 @@
     layers:
     - state: green
       scale: 0.7, 0.7
-    - sprite: ADT/Objects/Storage/Cases/ammocaseshort.rsi
-      state: icon
+    - sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+      state: uranium
   - type: EntityTableSpawner
     offset: 0.1
     deleteSpawnerAfterSpawn: false
