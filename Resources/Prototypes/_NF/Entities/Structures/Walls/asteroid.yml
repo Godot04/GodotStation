@@ -197,7 +197,7 @@
   components:
   - type: OreVein
     oreChance: 1.0
-    currentOre: OreIron
+    currentOre: OreSteel
   - type: Sprite
     layers:
     - state: scraprock01
