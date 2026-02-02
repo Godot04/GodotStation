@@ -741,6 +741,7 @@
     - RGlassSmelting
     - AdvancedSmelting
     - ADTBScrystalSmelting #ADT Tweak
+    - SmeltScrap #ADT tweak
 
 - type: entity
   parent: BaseLathe
