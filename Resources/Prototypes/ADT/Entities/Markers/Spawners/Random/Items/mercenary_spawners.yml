@@ -281,10 +281,10 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: ADT/Structures/Storage/closet.rsi
-        state: mercenary
-      - sprite: ADT/Structures/Storage/closet.rsi
-        state: mercenary_door
+      - sprite: Structures/Storage/closet.rsi
+        state: syndicate
+      - sprite: Structures/Storage/closet.rsi
+        state: syndicate_door
       - sprite: ADT/Markers/general.rsi
         state: questionmark
         color: red

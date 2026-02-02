@@ -369,9 +369,9 @@
     layers:
       - state: green
       - sprite: Structures/Storage/closet.rsi
-        state: med_secure
+        state: med
       - sprite: Structures/Storage/closet.rsi
-        state: med_secure_door
+        state: med_door
       - sprite: ADT/Markers/general.rsi
         state: questionmark
         color: red
