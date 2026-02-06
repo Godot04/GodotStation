@@ -743,7 +743,7 @@
     - AdvancedSmelting
     - ADTBScrystalSmelting #ADT Tweak
     - ScrapSmeltingBasic #ADT tweak
-    - ScrapSmeltingAdvanced #ADT weak
+    - ScrapSmeltingAdvanced #ADT tweak
 
 - type: entity
   parent: BaseLathe

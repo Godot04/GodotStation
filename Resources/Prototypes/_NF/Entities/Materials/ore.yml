@@ -57,20 +57,20 @@
   price: 0.02
 
 # Spawner for lathe: yield random mats if processed in ore processor
-- type: entity
-  name: refined scrap
-  id: SpawnRandomRefinedScrap
-  parent: MarkerBase
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: _NF/Objects/Materials/ore.rsi
-        state: scrapore
-      - sprite: Markers/cross.rsi
-        state: red
-        color: red
+# - type: entity
+#   name: refined scrap
+#   id: SpawnRandomRefinedScrap
+#   parent: MarkerBase
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: Sprite
+#     layers:
+#       - state: green
+#       - sprite: _NF/Objects/Materials/ore.rsi
+#         state: scrapore
+#       - sprite: Markers/cross.rsi
+#         state: red
+#         color: red
 
 
 
