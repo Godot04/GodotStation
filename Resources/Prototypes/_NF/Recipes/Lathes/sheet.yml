@@ -91,6 +91,7 @@
   id: ScrapSheetSteel1
   result: SheetSteel1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 1
   materials:
     RawScrap: 900
 
@@ -106,6 +107,7 @@
   id: ScrapSheetGlass1
   result: SheetGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 1
   materials:
     RawScrap: 1200
 
@@ -121,6 +123,7 @@
   id: ScrapSheetBrass1
   result: SheetBrass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 2
   materials:
     RawScrap: 1500
 
@@ -136,6 +139,7 @@
   id: ScrapSheetRGlass1
   result: SheetRGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 2
   materials:
     RawScrap: 1300
 
@@ -151,6 +155,7 @@
   id: ScrapSheetPlasteel1
   result: SheetPlasteel1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 17
   materials:
     RawScrap: 4000
 
@@ -166,6 +171,7 @@
   id: ScrapSheetPlastic1
   result: SheetPlastic1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 2
   materials:
     RawScrap: 1500
 
@@ -181,6 +187,7 @@
   id: ScrapSheetPlasma1
   result: SheetPlasma1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 15
   materials:
     RawScrap: 3000
 
@@ -196,6 +203,7 @@
   id: ScrapSheetUranium1
   result: SheetUranium1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 30
   materials:
     RawScrap: 3000
 
@@ -211,6 +219,7 @@
   id: ScrapIngotSilver1
   result: IngotSilver1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 16
   materials:
     RawScrap: 2300
 
@@ -226,6 +235,7 @@
   id: ScrapIngotGold1
   result: IngotGold1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 18
   materials:
     RawScrap: 3000
 
@@ -241,6 +251,7 @@
   id: ScrapMaterialBananium1
   result: MaterialBananium1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 60
   materials:
     RawScrap: 6500
 
@@ -256,6 +267,7 @@
   id: ScrapMaterialCloth1
   result: MaterialCloth1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 1
   materials:
     RawScrap: 800
 
@@ -271,6 +283,7 @@
   id: ScrapMaterialDurathread1
   result: MaterialDurathread1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 4
   materials:
     RawScrap: 2300
 
@@ -286,6 +299,7 @@
   id: ScrapSheetUGlass1
   result: SheetUGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 31
   materials:
     RawScrap: 3300
 
@@ -301,6 +315,7 @@
   id: ScrapSheetPGlass1
   result: SheetPGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 16
   materials:
     RawScrap: 3300
 
@@ -316,6 +331,7 @@
   id: ScrapSheetRUGlass1
   result: SheetRUGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 31
   materials:
     RawScrap: 3700
 
@@ -331,6 +347,7 @@
   id: ScrapSheetRPGlass1
   result: SheetRPGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 16
   materials:
     RawScrap: 3700
 
@@ -346,6 +363,7 @@
   id: ScrapSheetClockworkGlass1
   result: SheetClockworkGlass1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 2
   materials:
     RawScrap: 1400
 
@@ -362,6 +380,7 @@
   id: ScrapMaterialDiamond1
   result: MaterialDiamond1
   parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 50
   materials:
     RawScrap: 300000
 
@@ -373,5 +392,27 @@
   materials:
     RawScrap: 9000000 # dear god
 
+- type: latheRecipe
+  id: ScrapMaterialCopper1
+  result: ADTSheetCopper1
+  parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 2
+  materials:
+    RawScrap: 2000
 
+- type: latheRecipe
+  id: ScrapMaterialZinc1
+  result: ADTSheetZinc1
+  parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 6
+  materials:
+    RawScrap: 6000
+
+- type: latheRecipe
+  id: ScrapMaterialLead1
+  result: ADTSheetLead1
+  parent: BaseMaterialsNoDiscountRecipe
+  miningPoints: 4
+  materials:
+    RawScrap: 4000
 

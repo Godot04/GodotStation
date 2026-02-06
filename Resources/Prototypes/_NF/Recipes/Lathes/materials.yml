@@ -4,7 +4,7 @@
 - type: latheRecipePack
   id: ScrapSmeltingBasic
   recipes:
-  - SmeltScrap
+  # - SmeltScrap
   - ScrapSheetSteel1
   - ScrapSheetGlass1
   - ScrapSheetRGlass1
@@ -28,6 +28,9 @@
   - ScrapSheetRPGlass1
   - ScrapSheetClockworkGlass1
   - ScrapMaterialDiamond1
+  - ScrapMaterialCopper1
+  - ScrapMaterialLead1
+  - ScrapMaterialZinc1
 
 # Raw mats
 - type: latheRecipe
@@ -45,16 +48,16 @@
   materials:
     Paper: 10
 
-- type: latheRecipe
-  id: SmeltScrap
-  result: SpawnRandomRefinedScrap
-  parent: BaseMaterialsNoDiscountRecipe
-  completetime: 0.1
-  icon:
-    sprite: _NF/Objects/Materials/ore.rsi
-    state: scrapore
-  materials:
-    RawScrap: 1000
+# - type: latheRecipe
+#   id: SmeltScrap
+#   result: SpawnRandomRefinedScrap
+#   parent: BaseMaterialsNoDiscountRecipe
+#   completetime: 0.1
+#   icon:
+#     sprite: _NF/Objects/Materials/ore.rsi
+#     state: scrapore
+#   materials:
+#     RawScrap: 1000
 
 
 
